@@ -1,0 +1,11 @@
+# Composer Related
+/vendor/*
+
+# FatFree Related
+/tmp/*
+/app/config/site.ini
+!.gitkeep
+!.htaccess
+
+# F3-API Related
+app/config/migration.json

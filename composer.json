@@ -1,0 +1,27 @@
+{
+    "name": "chez14/f3-api",
+    "description": "FatFree Framework API Boilerplate",
+    "type": "project",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Chris",
+            "homepage": "https://christianto.net",
+            "email": "chris@christianto.net",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "bcosca/fatfree-core": "^3.7",
+        "spatie/array-to-xml": "^2.15",
+        "ikkez/f3-cortex": "^1.7",
+        "chez14/f3-ilgar": "v1.1.0"
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "scripts": {
+        "start":"./start_php_dev_server.sh"
+    }
+}
